@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RifkySeptianaR</title>
+    <link rel="icon" href="./assets/logor.PNG" type="logorifky" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <img src="./assets/logor.PNG" alt="Logo Rifky Septiana R" />
+        <span>Rifky Septiana R</span>
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about" class="menu-link">About</a></li>
+          <li><a href="#experience" class="menu-link">Skills</a></li>
+          <li><a href="#projects" class="menu-link">Experience</a></li>
+          <li><a href="#contact" class="menu-link">Contact</a></li>
+          <li>
+            <img id="modeToggle" class="icon color-icon" src="./assets/theme_light.png" src-light="./assets/theme_light.png" src-dark="./assets/theme_dark.png" alt="Color them icon" />
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">
+        <img src="./assets/logor.PNG" alt="Logo Rifky Septiana R" />
+        <span>Rifky Septiana R</span>
+      </div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+          <li>
+            <img id="modeToggle2" class="icon color-icon" src="./assets/theme_light.png" src-light="./assets/theme_light.png" src-dark="./assets/theme_dark.png" alt="Color them icon" />
+          </li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profil2.png" alt="rifky profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Rifky Septiana Rizki</h1>
+        <p class="section__text__p2">Frontend Developer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/CV RifkySeptianaRizki.pdf')">Download CV</button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
+        </div>
+        <div id="socials-container">
+          <a href="https://mail.google.com/mail/u/0/?view=cm&to=rifkiseptianarizki@gmail.com" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/email.png" src-light="./assets/email.png" src-dark="./assets/email_dark.png" alt="Email icon" class="icon contact-icon email-icon" />
+          </a>
+          <a href="https://www.instagram.com/rfkyyspt__" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/4.png" src-light="./assets/4.png" src-dark="./assets/igdark.png" alt="Instagram icon" class="icon instagram-icon" />
+          </a>
+          <a href="https://wa.me/6281959986108" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/5.png" src-light="./assets/5.png" src-dark="./assets/wadark.png" alt="WhatsApp icon" class="icon contact-icon" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/about-pic.png" alt="Profile picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="text-container">
+            <p>
+              "As a university student, I have developed strong leadership and communication skills through various organizations and events. Additionally, I focus on building high-quality websites and applications using modern
+              technologies."
+            </p>
+          </div>
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/education.png" src-light="./assets/education.png" src-dark="./assets/education_dark.png" alt="Education icon" class="icon" />
+              <h3>Education</h3>
+              <br />
+              <p>~ SMPN 4 Sumedang (2016 - 2019)<br />~ SMAN 2 Sumedang (2019 - 2022)<br />~ Universitas Sebelas April (2022 - 2026)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" src-light="./assets/arrow.png" src-dark="./assets/arrow_dark.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Skills</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Soft Skills</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/LogoBEM UNSAP.png" src-light="./assets/LogoBEM UNSAP.png" src-dark="./assets/LogoBEM UNSAP.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>BEM UNSAP</h3>
+                  <p>Internal Monitoring Unit (2024/2025)</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/LogoKarang Taruna Transparan.png" src-light="./assets/LogoKarang Taruna Transparan.png" src-dark="./assets/LogoKarang Taruna Transparan.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Karang Taruna Baginda</h3>
+                  <p>Leader (2024/2027)</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/logoTahuNgoding.png" src-light="./assets/logoTahuNgoding.png" src-dark="./assets/logoTahuNgoding.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Tahu Ngoding</h3>
+                  <p>Head of P2M Division (2023/2024)</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/FiksSatgas.png" src-light="./assets/FiksSatgas.png" src-dark="./assets/FiksSatgas.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Satgas PPKPT UNSAP</h3>
+                  <p>Head of Media Division (2024/2026)</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Hard Skills</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/fr.png" src-light="./assets/fr.png" src-dark="./assets/fedark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Front End Developer</h3>
+                  <p>React.js, Next.js, Vue.js, Tailwind, Bootstrap</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/gd.png" src-light="./assets/gd.png" src-dark="./assets/dgdark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Graphic Design</h3>
+                  <p>Adobe Illustrator, Photoshop, Canva</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/uiux.png" src-light="./assets/uiux.png" src-dark="./assets/uiuxdark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>UI/UX Design</h3>
+                  <p>Figma, Adobe XD</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/ve.png" src-light="./assets/ve.png" src-dark="./assets/videodark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Video Editor</h3>
+                  <p>Adobe Premiere Pro, CapCut</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" src-light="./assets/arrow.png" src-dark="./assets/arrow_dark.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/umkmunsap.png" alt="Project 1" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">UMKM UNSAP</h2>
+            <h5>“ Website UMKM UNSAP ” Sebuah platform yang menyediakan wadah bagi mahasiswa yang memiliki UMKM untuk mendigitalisasi bisnis mereka. Mahasiswa dapat mengelola berbagai aspek bisnis dalam satu tempat.</h5>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/myupstore.png" alt="Project 3" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">MY UP STORE</h2>
+            <h5>" My Up Store " merupakan platform yang memudahkan pengguna untuk melakukan top-up game dengan cepat, aman, dan praktis. Dengan solusi digitalisasi, MyUpStore menyatukan berbagai kebutuhan top-up game dalam satu tempat.</h5>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/hypercare.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">HYPER CARE</h2>
+            <h5>" HyperCare " merupakan platform yang membantu pengguna mengelola kesehatan hipertensi dengan cepat, aman, dan praktis. Semua kebutuhan pencatatan dan pemantauan kesehatan tersedia dalam satu tempat.</h5>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/'">Github</button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/pemira.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">PEMIRA UNSAP 2023</h2>
+            <h5>
+              Pemira 2023 adalah ajang demokrasi mahasiswa untuk memilih Ketua BEM Universitas Sebelas April. Kegiatan ini melibatkan rangkaian pendaftaran calon, kampanye, debat kandidat, pemungutan suara, hingga pengumuman pemenang.
+              Pemira bertujuan mewujudkan kepemimpinan yang transparan, aspiratif, dan membawa perubahan positif bagi mahasiswa.
+            </h5>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/milangkala.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">MILANGKALA DESA BAGINDA</h2>
+            <h5>
+              Milangkala Desa Baginda ke-47 adalah peringatan ulang tahun Desa Baginda yang menjadi momen bersejarah untuk merayakan perjalanan dan perkembangan desa. Kegiatan ini diisi dengan berbagai acara kebudayaan, gotong royong, dan
+              hiburan sebagai bentuk rasa syukur dan kebersamaan warga.
+            </h5>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/makrabtahu.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">MAKRAB TAHUNGODING 2024</h2>
+            <h5>
+              Makrab (Malam Keakraban) Tahu Ngoding 2024 adalah malam keakraban yang sekaligus menjadi momen pelantikan anggota baru. Acara ini bertujuan untuk mempererat hubungan antaranggota, membangun rasa kekeluargaan, dan menyambut
+              keluarga baru Tahu Ngoding dengan penuh semangat dan kebersamaan.
+            </h5>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/tahuconect.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">TAHU C0NNECT 2023</h2>
+            <h5>
+              Tahu Connect 2023 adalah acara kebersamaan yang diselenggarakan oleh UKM Tahu Ngoding untuk mempererat rasa kekeluargaan antaranggota. Dengan berbagai kegiatan seru dan penuh makna, acara ini menjadi wadah untuk membangun
+              solidaritas, semangat kolaborasi, dan kebersamaan dalam satu keluarga besar Tahu Ngoding.
+            </h5>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/diesnatalis23.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">DIES NATALIS UNSAP 2023</h2>
+            <h5>
+              Dies Natalis UNSAP 2023 merupakan perayaan ulang tahun Universitas Sebelas April yang ke-2. Acara ini menjadi momen untuk mengenang perjalanan UNSAP, mempererat kebersamaan civitas akademika, serta memperkuat komitmen dalam
+              mencetak generasi unggul.
+            </h5>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/digitalstartup.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">SEMINAR DIGITAL STARTUP</h2>
+            <h5>
+              Seminar Digital Startup adalah acara yang diselenggarakan oleh UKM Tahu Ngoding untuk membahas peluang dan tantangan membangun startup digital. Kegiatan ini menghadirkan pembicara inspiratif, membagikan wawasan seputar inovasi
+              teknologi, pengembangan bisnis, dan strategi memulai startup.
+            </h5>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/pkkmb23.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">PKKMB UNSAP 2023</h2>
+            <h5>
+              PKKMB (Pengenalan Kehidupan Kampus bagi Mahasiswa Baru) UNSAP 2023 adalah kegiatan orientasi bagi mahasiswa baru Universitas Sebelas April. Acara ini bertujuan untuk mengenalkan lingkungan kampus, sistem akademik, serta
+              membangun semangat kebersamaan dan adaptasi dalam kehidupan perkuliahan.
+            </h5>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/pkm.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">PKM DESA BAGINDA 2024</h2>
+            <h5>
+              PKM (Pengabdian kepada Masyarakat) Desa Baginda 2024 adalah program kolaborasi Badan Eksekutif Mahasiswa, Tahu Ngoding, dan HIMA Kesmas yang bertujuan memberdayakan masyarakat melalui edukasi, pelatihan, serta pengembangan
+              potensi desa. Kegiatan ini mengusung semangat kebersamaan untuk menciptakan dampak positif bagi kemajuan Desa Baginda.
+            </h5>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/seminarai.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">SEMINAR AI 2023</h2>
+            <h5>
+              Seminar AI 2023 adalah acara yang diselenggarakan oleh UKM Tahu Ngoding untuk membahas perkembangan kecerdasan buatan (AI) dan penerapannya. Dengan menghadirkan pembicara ahli, seminar ini bertujuan memberikan wawasan dan
+              inspirasi tentang inovasi teknologi di era digital.
+            </h5>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/wisuda23.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">WISUDA UNSAP 2023</h2>
+            <h5>Wisuda UNSAP 2023 merupakan momen sakral bagi para mahasiswa Universitas Sebelas April yang telah menyelesaikan pendidikan mereka. Acara ini menjadi simbol keberhasilan dan langkah awal untuk berkarya di masyarakat.</h5>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/diesnatalis24.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">DIES NATALIS 2024</h2>
+            <h5>
+              Dies Natalis UNSAP 2024 merupakan perayaan ulang tahun Universitas Sebelas April yang ke-2. Acara ini menjadi momen untuk mengenang perjalanan UNSAP, mempererat kebersamaan civitas akademika, serta memperkuat komitmen dalam
+              mencetak generasi unggul.
+            </h5>
+          </div>
+
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assets/pkkmb24.png" alt="Project 2" class="project-img" />
+            </div>
+            <h2 class="experience-sub-title project-title">PKKMB UNSAP 2024</h2>
+            <h5>
+              PKKMB (Pengenalan Kehidupan Kampus bagi Mahasiswa Baru) UNSAP 2024 adalah kegiatan orientasi bagi mahasiswa baru Universitas Sebelas April. Acara ini bertujuan untuk mengenalkan lingkungan kampus, sistem akademik, serta
+              membangun semangat kebersamaan dan adaptasi dalam kehidupan perkuliahan.
+            </h5>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" src-light="./assets/arrow.png" src-dark="./assets/arrow_dark.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <!-- Email -->
+          <a href="https://mail.google.com/mail/u/0/?view=cm&to=rifkiseptianarizki@gmail.com" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/email.png" src-light="./assets/email.png" src-dark="./assets/email_dark.png" alt="Email icon" class="icon contact-icon email-icon" />
+          </a>
+        </div>
+        <div class="contact-info-container">
+          <!-- Instagram -->
+          <a href="https://www.instagram.com/rfkyyspt__" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/4.png" src-light="./assets/4.png" src-dark="./assets/igdark.png" alt="Instagram icon" class="icon instagram-icon" />
+          </a>
+        </div>
+        <div class="contact-info-container">
+          <!-- WhatsApp -->
+          <a href="https://wa.me/6281959986108" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/5.png" src-light="./assets/5.png" src-dark="./assets/wadark.png" alt="WhatsApp icon" class="icon contact-icon" />
+          </a>
+        </div>
+        <div class="contact-info-container">
+          <!-- LinkedIn -->
+          <a href="https://www.linkedin.com/in/rifky-septiana-rizki-b04ab1274/" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/linkedin.png" src-light="./assets/linkedin.png" src-dark="./assets/linkedin_dark.png" alt="LinkedIn icon" class="icon contact-icon" />
+          </a>
+        </div>
+        <div class="contact-info-container">
+          <!-- GitHub -->
+          <a href="https://github.com/RifkySeptianaRizki" target="_blank" rel="noopener noreferrer">
+            <img src="./assets/github.png" src-light="./assets/github.png" src-dark="./assets/github_dark.png" alt="GitHub icon" class="icon contact-icon" />
+          </a>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about" class="menu-link">About</a></li>
+            <li><a href="#experience" class="menu-link">Skills</a></li>
+            <li><a href="#projects" class="menu-link">Experience</a></li>
+            <li><a href="#contact" class="menu-link">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2024 Rifky Septiana R. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
